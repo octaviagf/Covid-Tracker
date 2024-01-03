@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  background-color: black;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: monospace;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+p {
+  font-family: monospace;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.country {
+  width: 20rem;
+  height: 3rem;
+  font-family: monospace;
+  font-size: large;
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.btn {
+  width: 10rem;
+  height: 3rem;
+  font-family: monospace;
+  font-size: large;
+  color: black;
+  background-color: white;
+}
